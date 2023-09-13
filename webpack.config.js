@@ -11,8 +11,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Dynamic UI",
-      template: "./src/index.html",
+      template: "./src/index.html"
     }),
   ],
   output: {
