@@ -5,6 +5,7 @@ module.exports = {
   mode: "development",
   entry: {
     index: "./src/index.js",
+    dropdown: "./src/dropdown.js",
   },
   devServer: {
     static: "./dist",
