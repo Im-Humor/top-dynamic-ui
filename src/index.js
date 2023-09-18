@@ -5,6 +5,7 @@ import {
 	importingAll,
 	initNav,
 	initPhoto,
+	initTimer,
 } from "./image-slider";
 
 importingAll();
@@ -13,3 +14,4 @@ initNav();
 addArrowListeners();
 dropEventListener();
 sideEventListener();
+initTimer();

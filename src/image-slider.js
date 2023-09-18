@@ -75,3 +75,16 @@ export const addArrowListeners = () => {
 		element.addEventListener("click", arrowEvent),
 	);
 };
+
+export const initTimer = () => {
+	setInterval(() => {
+		if (selectedImage < imageArray.length) {
+			selectedImage += 1;
+			if (selectedImage > imageArray.length - 1) {
+				selectedImage = 0;
+			}
+		}
+		initNav();
+		initPhoto();
+	}, 5000);
+};
