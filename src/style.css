@@ -16,6 +16,10 @@ body {
     justify-content: space-around;
 }
 
+img {
+    height: 100%;
+}
+
 .mobile-menu-btn {
     width: 4rem;
     height: 4rem;
@@ -78,4 +82,55 @@ body {
 
 .dropdown-item-vis {
     background-color: grey;
+}
+
+#image-slider {
+    border: 2px solid red;
+    height: 50%;
+    width: auto;
+    display: flex;
+}
+
+.slider-side {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-content {
+    height: 80%;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-nav {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    padding: 5px;
+}
+
+.slide-nav-button {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.nav-vis {
+    background-color: white;
+}
+
+.nav-invis {
+    background-color: black;
 }
